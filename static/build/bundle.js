@@ -59,6 +59,17 @@ var bundle =
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+	console.log(_angular2.default);
+
+	//подключили jquery
+
+
+	// app.controller('mainCtrl', ($scope)=>{
+	// 	$scope.test = 'Hello world';
+	// 	$scope.dataList = model;
+	// })
+		console.log(_jquery2.default);
+
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
@@ -42090,9 +42101,23 @@ var bundle =
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	_app2.default.controller('mainCtrl', function ($scope) {
-		$scope.test = "hello ";
-	});
+	_app2.default.controller('mainCtrl', ['$scope', '$http', function ($scope, $http) {
+	  //$http is working in this
+	  $http.get('./mt_goods.json').success(function (data) {
+	    $scope.countries = data;
+	  });
+	}]);
+
+	//app.controller('mainCtrl', ($scope) =>{
+	//	$http.get('../model/mt_goods.json').then(
+	//    function(responce){
+	//         $scope.data = responce.data;
+	//    }
+	//)
+	//	//тело контроллера 
+	//	//$scope.test = "hello";
+
+	//});
 
 /***/ },
 /* 5 */
