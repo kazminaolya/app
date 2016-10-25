@@ -42091,7 +42091,7 @@ var bundle =
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	_app2.default.controller('mainCtrl', function ($scope) {
-		$scope.test = "hello world";
+		$scope.test = "hello ";
 	});
 
 /***/ },
