@@ -22,7 +22,6 @@ app.controller('mainCtrl', ($scope) =>{
 //)
 	//тело контроллера 
 	$scope.test = "hello";
-
 //});
 
 
