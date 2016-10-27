@@ -57,6 +57,8 @@ var bundle =
 
 	__webpack_require__(4);
 
+	__webpack_require__(8);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	console.log(_angular2.default);
@@ -42121,7 +42123,6 @@ var bundle =
 	  //)
 	  //тело контроллера 
 	  $scope.test = "hello";
-
 	  //});
 
 	});
@@ -42242,6 +42243,74 @@ var bundle =
 			comments: [{ text: 'cool!', date: '15.12.2016' }, { text: 'best', date: '11.12.2016' }]
 		}]
 		};
+
+/***/ },
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	__webpack_require__(9);
+
+	__webpack_require__(10);
+
+	__webpack_require__(11);
+
+	__webpack_require__(12);
+
+	__webpack_require__(13);
+
+	__webpack_require__(14);
+
+		__webpack_require__(15);
+
+/***/ },
+/* 9 */
+/***/ function(module, exports) {
+
+	/**
+	 * Created by ik.pc on 27.10.2016.
+	 */
+	"use strict";
+
+/***/ },
+/* 10 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+/***/ },
+/* 11 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+/***/ },
+/* 12 */
+/***/ function(module, exports) {
+
+	/**
+	 * Created by ik.pc on 27.10.2016.
+	 */
+	"use strict";
+
+/***/ },
+/* 13 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+/***/ },
+/* 14 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+/***/ },
+/* 15 */
+/***/ function(module, exports) {
+
+	"use strict";
 
 /***/ }
 /******/ ]);

@@ -7,7 +7,7 @@ console.log( $ );
 
 
 import './app/controllers/mainCtrl.js';
-
+import './../init.js';
 
 
 

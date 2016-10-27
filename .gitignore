@@ -1,5 +1,6 @@
-<<<<<<< HEAD
+
 ./node_modules/*
-=======
-node_modules/*
->>>>>>> d7d76ffbe04fe67d9ea07c3ef76a72f219bb948b
+
+node_modules
+
+.idea
