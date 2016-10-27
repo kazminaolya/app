@@ -42268,10 +42268,9 @@ var bundle =
 /* 9 */
 /***/ function(module, exports) {
 
-	/**
-	 * Created by ik.pc on 27.10.2016.
-	 */
-	"use strict";
+	'use strict';
+
+		alert('Kate');
 
 /***/ },
 /* 10 */
