@@ -1,24 +1,19 @@
 <html ng-app='app'>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="static/build/styles.css">
-    </head>
-    <body ng-controller = 'mainCtrl'>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    	{{test}}
-     	<p>{{dataList}}</p>
-=======
-    	{{test +1}};
-    	{{dataList}};
->>>>>>> a624405267f7532a4315addda9bffd3168b6f59d
-        
-=======
-    	{{test}};
 
-        {{5+5}}
->>>>>>> d7d76ffbe04fe67d9ea07c3ef76a72f219bb948b
-        <!-- <script type="text/javascript" src="bundle.js" charset="utf-8"></script> -->
+    </head>
+    <body>
+
+        <header></header>
+        <main>
+            <div ng-view></div>
+        </main>
+        <footer></footer>
+
+        <link rel="stylesheet" href="static/build/styles.css">
         <script type="text/javascript" src="static/build/bundle.js"></script>
+
+        <!--route-provider-->
     </body>
 </html>

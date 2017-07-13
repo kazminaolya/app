@@ -1,8 +1,7 @@
 {
-  "name": "app",
+  "name": "bogdan",
   "version": "1.0.0",
   "private": true,
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +17,11 @@
   },
   "homepage": "https://github.com/kazminaolya/app#readme",
   "dependencies": {
+    "@angular/router": "~4.0.0",
     "angular": "^1.5.8",
-    "webpack": "^1.13.2"
+    "angular-route": "^1.6.5",
+    "lodash": "^4.16.5",
+    "webpack": "^1.13.3"
   },
   "devDependencies": {
     "babel-core": "^6.17.0",
@@ -50,6 +52,6 @@
     "underscore": "^1.8.3",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2"
-  }
+  },
+  "description": ""
 }
-

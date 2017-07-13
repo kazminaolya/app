@@ -6,8 +6,8 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 webpackConfig = {  
 	context: __dirname,  
 	entry: {    
-		bundle: './static/app.js',    
-		styles: './static/main.scss'  
+		bundle: './static/init.js',    
+		styles: './static/main.scss'
 		},  
 	output: {    
 		filename: '[name].js',    
